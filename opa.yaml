@@ -1,0 +1,8 @@
+services:
+  example:
+    url: ":8080"
+plugins:
+  envoy_ext_authz_grpc:
+    addr: ":9191"
+    path: envoy/authz/allow
+
