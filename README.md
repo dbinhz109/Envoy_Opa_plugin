@@ -17,7 +17,7 @@ envoy -c envoy.yml
 2. Start the opa server
 ```sh
 chmod +x opa_envoy_linux_amd64
-/opa_envoy_linux_amd64 run --server --watch /path/to/policy.rego --log-level=debug --config-file=/path/to/opa.yaml
+./opa_envoy_linux_amd64 run --server --watch /path/to/policy.rego --log-level=debug --config-file=/path/to/opa.yaml
 ```
 
 2. Start the go gin server.
